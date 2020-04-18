@@ -1,0 +1,105 @@
+.header {
+    background-image: url("./codecode.jpg");
+    background-size: 300px 100px;
+    height: 300px;
+    text-align: center;
+}
+h1.title {
+    background-size: 300px 100px;
+    color: aliceblue;
+    font-size: 90px;
+    font-weight: bold;
+}
+h2.title {
+    color: gold;
+}
+p.title {
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+body {
+    background: darkgrey;
+    font-family: Helvetica;
+}
+.footer {
+    background-color: darkred;
+    opacity: .9;
+}
+.content {
+    background-color: gold;
+}
+.title {
+    background-color: darkcyan;
+    opacity: .8;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main-menu {
+    list-style: none;
+    padding: 20px;
+    line-height: 150%;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: red;
+}
+a.title {
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 25px;
+}
+a:hover.title {
+    font-weight: bold;
+    color: red;
+}
+h5.footer {
+    font-size: 15px;
+    color: gold;
+    text-align: center;
+}
+.content h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: indigo;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.machine {
+    background-color: rgb(53, 41, 41);
+    color: white;
+    font-family: "courier new";
+}
+table {
+    font-size: 16px;
+    border: 2px solid gray;
+    border-collapse: collapse;
+}
+tbody {
+    border: 2px solid gray;
+}
+td,
+th {
+    padding: 10px;
+    border: 1px solid gray;
+}
+th {
+    background-color: greenyellow;
+    color: rgb(211, 41, 41);
+}
+tr:nth-child(even) {
+    background-color: pink;
+}
+tr:nth-child(odd) {
+    background-color: orange;
+}
+tbody tr:hover {
+    opacity: 0.5;
+}
